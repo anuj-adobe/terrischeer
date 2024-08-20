@@ -1,0 +1,98 @@
+[
+  {
+    "id": "1",
+    "path": "/nav",
+    "sections": [
+      {
+        "id": "1-1",
+        "blocks": [],
+        "settings": {}
+      }
+    ]
+  },
+  {
+    "id": "2",
+    "path": "/index",
+    "sections": [
+      {
+        "id": "2-1",
+        "blocks": [
+          {
+            "id": "box-id--1493067312",
+            "x": 0,
+            "y": 489,
+            "width": 1329,
+            "height": 386,
+            "xpath": "/html[1]/body[1]/div[4]/section[3]",
+            "layout": {
+              "numCols": 4,
+              "numRows": 1
+            },
+            "childrenXpaths": [
+              {
+                "xpath": "/html[1]/body[1]/div[4]/section[3]/div[1]/div[1]/div[1]",
+                "xpathWithDetails": "id(\"products\")/div[@class=\"container\"]/div[@class=\"row\"]/div[@class=\"col-md-3 landlord\"]"
+              },
+              {
+                "xpath": "/html[1]/body[1]/div[4]/section[3]/div[1]/div[1]/div[3]",
+                "xpathWithDetails": "id(\"products\")/div[@class=\"container\"]/div[@class=\"row\"]/div[@class=\"col-md-3 holiday-rental\"]"
+              },
+              {
+                "xpath": "/html[1]/body[1]/div[4]/section[3]/div[1]/div[1]/div[5]",
+                "xpathWithDetails": "id(\"products\")/div[@class=\"container\"]/div[@class=\"row\"]/div[@class=\"col-md-3 building-insurance\"]"
+              },
+              {
+                "xpath": "/html[1]/body[1]/div[4]/section[3]/div[1]/div[1]/div[7]",
+                "xpathWithDetails": "id(\"boxActive\")"
+              }
+            ],
+            "color": "rgba(0, 0, 255, 0.4)",
+            "mapping": "columns",
+            "customBlockName": "columns-products"
+          },
+          {
+            "id": "box-id--1493067219",
+            "x": 0,
+            "y": 973,
+            "width": 1329,
+            "height": 318,
+            "xpath": "/html[1]/body[1]/div[4]/section[6]",
+            "layout": {
+              "numCols": 3,
+              "numRows": 1
+            },
+            "childrenXpaths": [
+              {
+                "xpath": "/html[1]/body[1]/div[4]/section[6]/div[1]/div[1]/div[1]",
+                "xpathWithDetails": "id(\"benefits\")/div[@class=\"container\"]/div[@class=\"row\"]/div[@class=\"col-md-4 benefit-item\"]"
+              },
+              {
+                "xpath": "/html[1]/body[1]/div[4]/section[6]/div[1]/div[1]/div[2]",
+                "xpathWithDetails": "id(\"benefits\")/div[@class=\"container\"]/div[@class=\"row\"]/div[@class=\"col-md-4 benefit-item\"]"
+              },
+              {
+                "xpath": "/html[1]/body[1]/div[4]/section[6]/div[1]/div[1]/div[3]",
+                "xpathWithDetails": "id(\"benefits\")/div[@class=\"container\"]/div[@class=\"row\"]/div[@class=\"col-md-4 benefit-item\"]"
+              }
+            ],
+            "color": "rgba(0, 0, 255, 0.4)",
+            "mapping": "columns",
+            "customBlockName": "columns-benefits"
+          }
+        ],
+        "settings": {}
+      }
+    ]
+  },
+  {
+    "id": "3",
+    "path": "/footer",
+    "sections": [
+      {
+        "id": "3-1",
+        "blocks": [],
+        "settings": {}
+      }
+    ]
+  }
+]
